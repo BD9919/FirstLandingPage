@@ -1,0 +1,123 @@
+body {
+    margin: 0px;
+}
+
+.full-width-container {
+    width: 100%;
+
+}
+
+.blue-background {
+    background-color: #1F2937;
+    color: white;
+}
+
+.container {
+    width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+header > h2 {
+    font-size: 24px;
+    padding-left: 5px;
+}
+
+header > ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: small;
+    color: grey;
+}
+
+li {
+    padding: 5px;
+}
+
+div.siteIntro > h2 {
+    font-size: 32px;
+    font-weight: bolder;
+    color: white; 
+    margin: 0px;
+    width: 300px;
+}
+
+div.siteIntro > p {
+    color: beige;
+    width: 400px;
+    padding: 2px;
+}
+
+div.siteIntro > button {
+    width: 75px;
+    margin: 5px;
+    border-radius: 4px;
+    background-color: #3882F6;
+    color: white;
+}
+
+div.Intro {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 75px;
+    padding-top: 75px
+}
+
+div.imgContainer > img {
+    height: 300px;
+    width: 500px;
+}
+
+div.pictures > h2 {
+    font-size: 48px;
+    text-align: center;
+}
+
+.horizontal-pics {
+    display: flex;
+    justify-content: space-evenly;
+}
+.picture-block > img {
+    height: 150px;
+    width: 150px;
+    border: solid #3882F6;
+    border-radius: 10px;
+}
+
+.gray-background {
+    background-color: lightgray;
+}
+
+.quote-box {
+    padding: 100px;
+}
+
+.quote-box-text {
+        color: black;
+        font-size: larger;
+        font-family: Arial, Helvetica, sans-serif;
+}
+
+.white-background {
+    padding: 100px;
+}
+.blue-box-background {
+    padding: 25px;
+    background-color: #3882F6;
+    border-radius: 10px;
+}
+
+.sign-up-text-box {
+    color: white;
+}
+
+.button-two {
+    color: white;
+    background-color: #3882F6;
+}
